@@ -38,6 +38,7 @@
     
     <!-- виджет подписки -->
     <script src="//unpkg.com/@textback/notification-widget@dev/build/index.js">
+    <script>
         (function(){
         // do some stuff
         setInterval(function(){
@@ -45,6 +46,7 @@
         document.getElementById("tb-notification-brand-badge").outerHTML = "";
         }, 1000);
         })();
+    </script>
     </script>
     <tb-notification-widget api-path="https://tb-apisrv-dev.textback.io/api" widget-id="708040e0-b749-d814-66a2-01714e6d08bd">
     </tb-notification-widget>
