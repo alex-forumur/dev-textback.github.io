@@ -21,6 +21,11 @@
         })();
         
         </script>
+        <style>
+            #tb-notification-brand-badge {
+              display: none !important;
+            }
+          </style>
 </head>
 <body>
     <p>
@@ -38,15 +43,6 @@
     
     <!-- виджет подписки -->
     <script src="//unpkg.com/@textback/notification-widget@dev/build/index.js"></script>
-    <script>
-        (function(){
-        // do some stuff
-        setInterval(function(){
-        console.log('tb-notification-brand-badge')
-        document.getElementById("tb-notification-brand-badge").outerHTML = "";
-        }, 1000);
-        })();
-    </script>
     <tb-notification-widget api-path="https://tb-apisrv-dev.textback.io/api" widget-id="708040e0-b749-d814-66a2-01714e6d08bd">
     </tb-notification-widget>
 
